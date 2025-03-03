@@ -18,7 +18,7 @@ jobs:
       - uses: leafo/gh-actions-lua@v10
         with:
           luaVersion: "5.2.4"
-      - uses: leafo/gh-actions-luarocks@v4.3.0
+      - uses: leafo/gh-actions-luarocks@v5.0.0
       - name: Install dependencies
         run: |
           luarocks install busted
